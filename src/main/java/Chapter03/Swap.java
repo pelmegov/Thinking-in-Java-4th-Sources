@@ -6,14 +6,14 @@ class Point {
 }
 
 public class Swap {
-	public static void swap1(Point x, Point y) {
+	private static void swap1(Point x, Point y) {
 		Point temp;
 		temp = x;
 		x = y;
 		y = temp;
 	}
 	
-	public static void swap2(Point x, Point y) {
+	private static void swap2(Point x, Point y) {
 		Point temp = new Point();
 		temp.x = x.x;
 		temp.y = x.y;

@@ -7,6 +7,8 @@ public class DefaultValue {
     private short s;
     private long l;
     private double d;
+    private boolean bl;
+    private float f;
 
     public static void main(String[] args) {
         DefaultValue defaultValue = new DefaultValue();
@@ -16,5 +18,7 @@ public class DefaultValue {
         System.out.println("default short is: " + defaultValue.s);
         System.out.println("default long is: " + defaultValue.l);
         System.out.println("default double is: " + defaultValue.d);
+        System.out.println("default boolean is: " + defaultValue.bl);
+        System.out.println("default float is: " + defaultValue.f);
     }
 }

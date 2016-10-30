@@ -1,12 +1,5 @@
 package Chapter03;
 
-/***
- * 
- * @author niushuai
- * 
- *         如果自定义类需要判断对象是否相等，则最好重载equals，而且重载equals必须重载hashCode，可使用eclipse自带的重载函数
- */
-
 class Student {
 	String name;
 
@@ -34,7 +27,6 @@ class Student {
 			return false;
 		return true;
 	}
-
 }
 
 public class EqualValence2 {
